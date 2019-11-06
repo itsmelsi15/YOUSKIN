@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6DDCC"
+    android:paddingLeft="30dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login App"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/roboto"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's Join With Us"
+        android:layout_marginTop="5dp"
+        android:textSize="12sp"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/text1"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/text2"
+
+        ></TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textEmail"
+        android:id="@+id/inputEmail"
+        android:layout_marginTop="2dp"
+        android:fontFamily="@font/roboto"
+        ></EditText>
+
+    <TextView
+        android:id="@+id/textPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/inputEmail"
+
+        ></TextView>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPassword"
+        android:id="@+id/inputPassword"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/roboto"
+        android:inputType="textPassword"
+
+        ></EditText>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Login"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/inputPassword"
+        android:id="@+id/buttonLogin"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_rounded"
+        ></Button>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:fontFamily="@font/roboto"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/buttonLogin"
+        android:textSize="14sp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Or Login With"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/text3"
+        android:textSize="12sp"
+        ></TextView>
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Facebook"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/text4"
+        android:id="@+id/buttonFb"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/fb_rounded"
+        ></com.facebook.login.widget.LoginButton>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Gmail"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/buttonFb"
+        android:id="@+id/buttonGmail"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/gmail_rounded"
+        ></Button>
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account ?"
+        android:fontFamily="@font/roboto"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/buttonGmail"
+        android:textSize="12sp"
+        ></TextView>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="Sign Up"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto"
+        android:layout_below="@+id/text5"
+        android:id="@+id/buttonSignUp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btn_rounded"
+        ></Button>
+
+
+</RelativeLayout>

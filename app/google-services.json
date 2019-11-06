@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865099902856",
+    "firebase_url": "https://youskin-2637f.firebaseio.com",
+    "project_id": "youskin-2637f",
+    "storage_bucket": "youskin-2637f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865099902856:android:fece5d5773ae6b2b86543d",
+        "android_client_info": {
+          "package_name": "org.jplas.android.youskin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865099902856-jsjb24se3uv309310ltv7ur9gqg80add.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.jplas.android.youskin",
+            "certificate_hash": "0060c651f45d3824e90166178cb413170c38e0ae"
+          }
+        },
+        {
+          "client_id": "865099902856-n8dsrq2col1tegutb95mtduhhge116m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtwMGt-V89K9XUqgYwzzvWK2l5fkKp8kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865099902856-n8dsrq2col1tegutb95mtduhhge116m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

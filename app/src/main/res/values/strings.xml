@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YOUSKIN</string>
+    <string name="facebook_app_id">1001851250172235</string>
+    <string name="fb_login_protocol_scheme">fb1001851250172235</string>
+</resources>
